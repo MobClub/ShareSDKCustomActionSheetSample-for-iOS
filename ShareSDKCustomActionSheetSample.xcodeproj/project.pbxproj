@@ -527,34 +527,23 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Connection",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Core",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/GooglePlusSDK",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/RenRenSDK",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/UI",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Connection",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Core",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/GooglePlusSDK",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/RenRenSDK",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/UI",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Connection",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Core",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Extend/GooglePlusSDK",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Extend/RenRenSDK",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Extend",
+					"$(SRCROOT)/ShareSDK_v2.5.1",
+					"$(SRCROOT)/ShareSDK_v2.5.1/UI",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample-Prefix.pch";
 				INFOPLIST_FILE = "ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/libWeiboSDK",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/SDKExport",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/TencentWeiboSSO",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/libWeiboSDK",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/SDKExport",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/TencentWeiboSSO",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Extend/libWeiboSDK",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Extend/SDKExport",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Extend/TencentWeiboSSO",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -569,34 +558,23 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Connection",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Core",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/GooglePlusSDK",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/RenRenSDK",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/UI",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Connection",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Core",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/GooglePlusSDK",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/RenRenSDK",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/UI",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Connection",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Core",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Extend/GooglePlusSDK",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Extend/RenRenSDK",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Extend",
+					"$(SRCROOT)/ShareSDK_v2.5.1",
+					"$(SRCROOT)/ShareSDK_v2.5.1/UI",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample-Prefix.pch";
 				INFOPLIST_FILE = "ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/libWeiboSDK",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/SDKExport",
-					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/TencentWeiboSSO",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/libWeiboSDK",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/SDKExport",
-					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/TencentWeiboSSO",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Extend/libWeiboSDK",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Extend/SDKExport",
+					"$(SRCROOT)/ShareSDK_v2.5.1/Extend/TencentWeiboSSO",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
