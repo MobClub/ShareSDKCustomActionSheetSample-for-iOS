@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		413A9ED0180927FC007284F7 /* QQConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413A9E89180927FC007284F7 /* QQConnection.framework */; };
+		413A9ED3180927FC007284F7 /* SinaWeiboConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413A9E8C180927FC007284F7 /* SinaWeiboConnection.framework */; };
+		413A9ED8180927FC007284F7 /* TencentWeiboConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413A9E91180927FC007284F7 /* TencentWeiboConnection.framework */; };
+		413A9EDB180927FC007284F7 /* WeChatConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413A9E94180927FC007284F7 /* WeChatConnection.framework */; };
+		413A9EDD180927FC007284F7 /* AGCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413A9E97180927FC007284F7 /* AGCommon.framework */; };
+		413A9EDE180927FC007284F7 /* ShareSDKLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 413A9E98180927FC007284F7 /* ShareSDKLocalizable.strings */; };
+		413A9EDF180927FC007284F7 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 413A9E9A180927FC007284F7 /* Resource.bundle */; };
+		413A9EE0180927FC007284F7 /* ShareSDKCoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413A9E9B180927FC007284F7 /* ShareSDKCoreService.framework */; };
+		413A9EEA180927FC007284F7 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 413A9EAE180927FC007284F7 /* libWeChatSDK.a */; };
+		413A9EEB180927FC007284F7 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413A9EB1180927FC007284F7 /* TencentOpenAPI.framework */; };
+		413A9EEC180927FC007284F7 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 413A9EB2180927FC007284F7 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		413A9EEE180927FC007284F7 /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413A9EB7180927FC007284F7 /* ShareSDK.framework */; };
+		413A9EF1180927FD007284F7 /* ShareSDKiPadSimpleShareViewUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 413A9EBB180927FC007284F7 /* ShareSDKiPadSimpleShareViewUI.bundle */; };
+		413A9EF2180927FD007284F7 /* ShareSDKiPadSimpleShareViewUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413A9EBC180927FC007284F7 /* ShareSDKiPadSimpleShareViewUI.framework */; };
+		413A9EF6180927FD007284F7 /* ShareSDKiPhoneSimpleShareViewUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 413A9EC0180927FC007284F7 /* ShareSDKiPhoneSimpleShareViewUI.bundle */; };
+		413A9EF7180927FD007284F7 /* ShareSDKiPhoneSimpleShareViewUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413A9EC1180927FC007284F7 /* ShareSDKiPhoneSimpleShareViewUI.framework */; };
+		C3187A9B1806B04D0092EC97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3187A9A1806B04D0092EC97 /* Foundation.framework */; };
+		C3187A9D1806B04D0092EC97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3187A9C1806B04D0092EC97 /* CoreGraphics.framework */; };
+		C3187A9F1806B04D0092EC97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3187A9E1806B04D0092EC97 /* UIKit.framework */; };
+		C3187AA51806B04D0092EC97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3187AA31806B04D0092EC97 /* InfoPlist.strings */; };
+		C3187AA71806B04D0092EC97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3187AA61806B04D0092EC97 /* main.m */; };
+		C3187AAB1806B04D0092EC97 /* AGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3187AAA1806B04D0092EC97 /* AGAppDelegate.m */; };
+		C3187AAD1806B04D0092EC97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3187AAC1806B04D0092EC97 /* Images.xcassets */; };
+		C3187AB41806B04D0092EC97 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3187AB31806B04D0092EC97 /* XCTest.framework */; };
+		C3187AB51806B04D0092EC97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3187A9A1806B04D0092EC97 /* Foundation.framework */; };
+		C3187AB61806B04D0092EC97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3187A9E1806B04D0092EC97 /* UIKit.framework */; };
+		C3187ABE1806B04D0092EC97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3187ABC1806B04D0092EC97 /* InfoPlist.strings */; };
+		C3187AC01806B04D0092EC97 /* ShareSDKCustomActionSheetSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3187ABF1806B04D0092EC97 /* ShareSDKCustomActionSheetSampleTests.m */; };
+		C3187B4D1806B2210092EC97 /* AGShareSDKSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3187B4C1806B2210092EC97 /* AGShareSDKSampleViewController.m */; };
+		C3187B4F1806B9700092EC97 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3187B4E1806B9700092EC97 /* CoreTelephony.framework */; };
+		C3187B511806BAD60092EC97 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C3187B501806BAD60092EC97 /* libicucore.dylib */; };
+		C3187B551806BB1F0092EC97 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C3187B541806BB1F0092EC97 /* libstdc++.dylib */; };
+		C3187B571806BB310092EC97 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C3187B561806BB310092EC97 /* libsqlite3.dylib */; };
+		C3187B591806BB450092EC97 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C3187B581806BB450092EC97 /* libz.dylib */; };
+		C3187B5B1806BB5B0092EC97 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3187B5A1806BB5B0092EC97 /* QuartzCore.framework */; };
+		C3187B5D1806BB630092EC97 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3187B5C1806BB630092EC97 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3187AB71806B04D0092EC97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3187A8F1806B04D0092EC97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3187A961806B04D0092EC97;
+			remoteInfo = ShareSDKCustomActionSheetSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		413A9E89180927FC007284F7 /* QQConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QQConnection.framework; sourceTree = "<group>"; };
+		413A9E8C180927FC007284F7 /* SinaWeiboConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SinaWeiboConnection.framework; sourceTree = "<group>"; };
+		413A9E91180927FC007284F7 /* TencentWeiboConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentWeiboConnection.framework; sourceTree = "<group>"; };
+		413A9E94180927FC007284F7 /* WeChatConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WeChatConnection.framework; sourceTree = "<group>"; };
+		413A9E97180927FC007284F7 /* AGCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AGCommon.framework; sourceTree = "<group>"; };
+		413A9E99180927FC007284F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShareSDKLocalizable.strings; sourceTree = "<group>"; };
+		413A9E9A180927FC007284F7 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+		413A9E9B180927FC007284F7 /* ShareSDKCoreService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKCoreService.framework; sourceTree = "<group>"; };
+		413A9E9C180927FC007284F7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShareSDKLocalizable.strings"; sourceTree = "<group>"; };
+		413A9EAE180927FC007284F7 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		413A9EAF180927FC007284F7 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		413A9EB0180927FC007284F7 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		413A9EB1180927FC007284F7 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		413A9EB2180927FC007284F7 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		413A9EB7180927FC007284F7 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
+		413A9EBB180927FC007284F7 /* ShareSDKiPadSimpleShareViewUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKiPadSimpleShareViewUI.bundle; sourceTree = "<group>"; };
+		413A9EBC180927FC007284F7 /* ShareSDKiPadSimpleShareViewUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKiPadSimpleShareViewUI.framework; sourceTree = "<group>"; };
+		413A9EC0180927FC007284F7 /* ShareSDKiPhoneSimpleShareViewUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKiPhoneSimpleShareViewUI.bundle; sourceTree = "<group>"; };
+		413A9EC1180927FC007284F7 /* ShareSDKiPhoneSimpleShareViewUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKiPhoneSimpleShareViewUI.framework; sourceTree = "<group>"; };
+		C3187A971806B04D0092EC97 /* ShareSDKCustomActionSheetSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareSDKCustomActionSheetSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3187A9A1806B04D0092EC97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3187A9C1806B04D0092EC97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3187A9E1806B04D0092EC97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3187AA21806B04D0092EC97 /* ShareSDKCustomActionSheetSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareSDKCustomActionSheetSample-Info.plist"; sourceTree = "<group>"; };
+		C3187AA41806B04D0092EC97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3187AA61806B04D0092EC97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3187AA81806B04D0092EC97 /* ShareSDKCustomActionSheetSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareSDKCustomActionSheetSample-Prefix.pch"; sourceTree = "<group>"; };
+		C3187AA91806B04D0092EC97 /* AGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGAppDelegate.h; sourceTree = "<group>"; };
+		C3187AAA1806B04D0092EC97 /* AGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGAppDelegate.m; sourceTree = "<group>"; };
+		C3187AAC1806B04D0092EC97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3187AB21806B04D0092EC97 /* ShareSDKCustomActionSheetSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareSDKCustomActionSheetSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3187AB31806B04D0092EC97 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C3187ABB1806B04D0092EC97 /* ShareSDKCustomActionSheetSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareSDKCustomActionSheetSampleTests-Info.plist"; sourceTree = "<group>"; };
+		C3187ABD1806B04D0092EC97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3187ABF1806B04D0092EC97 /* ShareSDKCustomActionSheetSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareSDKCustomActionSheetSampleTests.m; sourceTree = "<group>"; };
+		C3187B4B1806B2210092EC97 /* AGShareSDKSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGShareSDKSampleViewController.h; sourceTree = "<group>"; };
+		C3187B4C1806B2210092EC97 /* AGShareSDKSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGShareSDKSampleViewController.m; sourceTree = "<group>"; };
+		C3187B4E1806B9700092EC97 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C3187B501806BAD60092EC97 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		C3187B521806BADD0092EC97 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C3187B541806BB1F0092EC97 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		C3187B561806BB310092EC97 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C3187B581806BB450092EC97 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C3187B5A1806BB5B0092EC97 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C3187B5C1806BB630092EC97 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3187A941806B04D0092EC97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3187B5D1806BB630092EC97 /* SystemConfiguration.framework in Frameworks */,
+				C3187B5B1806BB5B0092EC97 /* QuartzCore.framework in Frameworks */,
+				C3187B591806BB450092EC97 /* libz.dylib in Frameworks */,
+				C3187B571806BB310092EC97 /* libsqlite3.dylib in Frameworks */,
+				413A9ED3180927FC007284F7 /* SinaWeiboConnection.framework in Frameworks */,
+				413A9ED8180927FC007284F7 /* TencentWeiboConnection.framework in Frameworks */,
+				413A9ED0180927FC007284F7 /* QQConnection.framework in Frameworks */,
+				C3187B551806BB1F0092EC97 /* libstdc++.dylib in Frameworks */,
+				413A9EEB180927FC007284F7 /* TencentOpenAPI.framework in Frameworks */,
+				C3187B511806BAD60092EC97 /* libicucore.dylib in Frameworks */,
+				413A9EDB180927FC007284F7 /* WeChatConnection.framework in Frameworks */,
+				C3187B4F1806B9700092EC97 /* CoreTelephony.framework in Frameworks */,
+				413A9EEE180927FC007284F7 /* ShareSDK.framework in Frameworks */,
+				413A9EDD180927FC007284F7 /* AGCommon.framework in Frameworks */,
+				413A9EE0180927FC007284F7 /* ShareSDKCoreService.framework in Frameworks */,
+				C3187A9D1806B04D0092EC97 /* CoreGraphics.framework in Frameworks */,
+				413A9EF7180927FD007284F7 /* ShareSDKiPhoneSimpleShareViewUI.framework in Frameworks */,
+				C3187A9F1806B04D0092EC97 /* UIKit.framework in Frameworks */,
+				413A9EF2180927FD007284F7 /* ShareSDKiPadSimpleShareViewUI.framework in Frameworks */,
+				413A9EEA180927FC007284F7 /* libWeChatSDK.a in Frameworks */,
+				C3187A9B1806B04D0092EC97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3187AAF1806B04D0092EC97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3187AB41806B04D0092EC97 /* XCTest.framework in Frameworks */,
+				C3187AB61806B04D0092EC97 /* UIKit.framework in Frameworks */,
+				C3187AB51806B04D0092EC97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		413A9E79180927FC007284F7 /* ShareSDK_v2.5.1 */ = {
+			isa = PBXGroup;
+			children = (
+				413A9E7A180927FC007284F7 /* Connection */,
+				413A9E96180927FC007284F7 /* Core */,
+				413A9E9D180927FC007284F7 /* Extend */,
+				413A9EB7180927FC007284F7 /* ShareSDK.framework */,
+				413A9EB8180927FC007284F7 /* UI */,
+			);
+			path = ShareSDK_v2.5.1;
+			sourceTree = "<group>";
+		};
+		413A9E7A180927FC007284F7 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				413A9E89180927FC007284F7 /* QQConnection.framework */,
+				413A9E8C180927FC007284F7 /* SinaWeiboConnection.framework */,
+				413A9E91180927FC007284F7 /* TencentWeiboConnection.framework */,
+				413A9E94180927FC007284F7 /* WeChatConnection.framework */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		413A9E96180927FC007284F7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				413A9E97180927FC007284F7 /* AGCommon.framework */,
+				413A9E98180927FC007284F7 /* ShareSDKLocalizable.strings */,
+				413A9E9A180927FC007284F7 /* Resource.bundle */,
+				413A9E9B180927FC007284F7 /* ShareSDKCoreService.framework */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		413A9E9D180927FC007284F7 /* Extend */ = {
+			isa = PBXGroup;
+			children = (
+				413A9EAD180927FC007284F7 /* SDKExport */,
+				413A9EB1180927FC007284F7 /* TencentOpenAPI.framework */,
+				413A9EB2180927FC007284F7 /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			path = Extend;
+			sourceTree = "<group>";
+		};
+		413A9EAD180927FC007284F7 /* SDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				413A9EAE180927FC007284F7 /* libWeChatSDK.a */,
+				413A9EAF180927FC007284F7 /* WXApi.h */,
+				413A9EB0180927FC007284F7 /* WXApiObject.h */,
+			);
+			path = SDKExport;
+			sourceTree = "<group>";
+		};
+		413A9EB8180927FC007284F7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				413A9EBB180927FC007284F7 /* ShareSDKiPadSimpleShareViewUI.bundle */,
+				413A9EBC180927FC007284F7 /* ShareSDKiPadSimpleShareViewUI.framework */,
+				413A9EC0180927FC007284F7 /* ShareSDKiPhoneSimpleShareViewUI.bundle */,
+				413A9EC1180927FC007284F7 /* ShareSDKiPhoneSimpleShareViewUI.framework */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C3187A8E1806B04C0092EC97 = {
+			isa = PBXGroup;
+			children = (
+				C3187AA01806B04D0092EC97 /* ShareSDKCustomActionSheetSample */,
+				C3187AB91806B04D0092EC97 /* ShareSDKCustomActionSheetSampleTests */,
+				C3187A991806B04D0092EC97 /* Frameworks */,
+				C3187A981806B04D0092EC97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3187A981806B04D0092EC97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3187A971806B04D0092EC97 /* ShareSDKCustomActionSheetSample.app */,
+				C3187AB21806B04D0092EC97 /* ShareSDKCustomActionSheetSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3187A991806B04D0092EC97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				413A9E79180927FC007284F7 /* ShareSDK_v2.5.1 */,
+				C3187B5C1806BB630092EC97 /* SystemConfiguration.framework */,
+				C3187B5A1806BB5B0092EC97 /* QuartzCore.framework */,
+				C3187B581806BB450092EC97 /* libz.dylib */,
+				C3187B561806BB310092EC97 /* libsqlite3.dylib */,
+				C3187B541806BB1F0092EC97 /* libstdc++.dylib */,
+				C3187B521806BADD0092EC97 /* Security.framework */,
+				C3187B501806BAD60092EC97 /* libicucore.dylib */,
+				C3187B4E1806B9700092EC97 /* CoreTelephony.framework */,
+				C3187A9A1806B04D0092EC97 /* Foundation.framework */,
+				C3187A9C1806B04D0092EC97 /* CoreGraphics.framework */,
+				C3187A9E1806B04D0092EC97 /* UIKit.framework */,
+				C3187AB31806B04D0092EC97 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3187AA01806B04D0092EC97 /* ShareSDKCustomActionSheetSample */ = {
+			isa = PBXGroup;
+			children = (
+				C3187AA91806B04D0092EC97 /* AGAppDelegate.h */,
+				C3187AAA1806B04D0092EC97 /* AGAppDelegate.m */,
+				C3187AAC1806B04D0092EC97 /* Images.xcassets */,
+				C3187AA11806B04D0092EC97 /* Supporting Files */,
+				C3187B4B1806B2210092EC97 /* AGShareSDKSampleViewController.h */,
+				C3187B4C1806B2210092EC97 /* AGShareSDKSampleViewController.m */,
+			);
+			path = ShareSDKCustomActionSheetSample;
+			sourceTree = "<group>";
+		};
+		C3187AA11806B04D0092EC97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3187AA21806B04D0092EC97 /* ShareSDKCustomActionSheetSample-Info.plist */,
+				C3187AA31806B04D0092EC97 /* InfoPlist.strings */,
+				C3187AA61806B04D0092EC97 /* main.m */,
+				C3187AA81806B04D0092EC97 /* ShareSDKCustomActionSheetSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3187AB91806B04D0092EC97 /* ShareSDKCustomActionSheetSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3187ABF1806B04D0092EC97 /* ShareSDKCustomActionSheetSampleTests.m */,
+				C3187ABA1806B04D0092EC97 /* Supporting Files */,
+			);
+			path = ShareSDKCustomActionSheetSampleTests;
+			sourceTree = "<group>";
+		};
+		C3187ABA1806B04D0092EC97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3187ABB1806B04D0092EC97 /* ShareSDKCustomActionSheetSampleTests-Info.plist */,
+				C3187ABC1806B04D0092EC97 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3187A961806B04D0092EC97 /* ShareSDKCustomActionSheetSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3187AC31806B04D0092EC97 /* Build configuration list for PBXNativeTarget "ShareSDKCustomActionSheetSample" */;
+			buildPhases = (
+				C3187A931806B04D0092EC97 /* Sources */,
+				C3187A941806B04D0092EC97 /* Frameworks */,
+				C3187A951806B04D0092EC97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareSDKCustomActionSheetSample;
+			productName = ShareSDKCustomActionSheetSample;
+			productReference = C3187A971806B04D0092EC97 /* ShareSDKCustomActionSheetSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3187AB11806B04D0092EC97 /* ShareSDKCustomActionSheetSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3187AC61806B04D0092EC97 /* Build configuration list for PBXNativeTarget "ShareSDKCustomActionSheetSampleTests" */;
+			buildPhases = (
+				C3187AAE1806B04D0092EC97 /* Sources */,
+				C3187AAF1806B04D0092EC97 /* Frameworks */,
+				C3187AB01806B04D0092EC97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3187AB81806B04D0092EC97 /* PBXTargetDependency */,
+			);
+			name = ShareSDKCustomActionSheetSampleTests;
+			productName = ShareSDKCustomActionSheetSampleTests;
+			productReference = C3187AB21806B04D0092EC97 /* ShareSDKCustomActionSheetSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3187A8F1806B04D0092EC97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AG;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ShareSDK;
+				TargetAttributes = {
+					C3187AB11806B04D0092EC97 = {
+						TestTargetID = C3187A961806B04D0092EC97;
+					};
+				};
+			};
+			buildConfigurationList = C3187A921806B04D0092EC97 /* Build configuration list for PBXProject "ShareSDKCustomActionSheetSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = C3187A8E1806B04C0092EC97;
+			productRefGroup = C3187A981806B04D0092EC97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3187A961806B04D0092EC97 /* ShareSDKCustomActionSheetSample */,
+				C3187AB11806B04D0092EC97 /* ShareSDKCustomActionSheetSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3187A951806B04D0092EC97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413A9EF6180927FD007284F7 /* ShareSDKiPhoneSimpleShareViewUI.bundle in Resources */,
+				C3187AA51806B04D0092EC97 /* InfoPlist.strings in Resources */,
+				C3187AAD1806B04D0092EC97 /* Images.xcassets in Resources */,
+				413A9EDE180927FC007284F7 /* ShareSDKLocalizable.strings in Resources */,
+				413A9EDF180927FC007284F7 /* Resource.bundle in Resources */,
+				413A9EF1180927FD007284F7 /* ShareSDKiPadSimpleShareViewUI.bundle in Resources */,
+				413A9EEC180927FC007284F7 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3187AB01806B04D0092EC97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3187ABE1806B04D0092EC97 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3187A931806B04D0092EC97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3187B4D1806B2210092EC97 /* AGShareSDKSampleViewController.m in Sources */,
+				C3187AAB1806B04D0092EC97 /* AGAppDelegate.m in Sources */,
+				C3187AA71806B04D0092EC97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3187AAE1806B04D0092EC97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3187AC01806B04D0092EC97 /* ShareSDKCustomActionSheetSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3187AB81806B04D0092EC97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3187A961806B04D0092EC97 /* ShareSDKCustomActionSheetSample */;
+			targetProxy = C3187AB71806B04D0092EC97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		413A9E98180927FC007284F7 /* ShareSDKLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				413A9E99180927FC007284F7 /* en */,
+				413A9E9C180927FC007284F7 /* zh-Hans */,
+			);
+			name = ShareSDKLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		C3187AA31806B04D0092EC97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3187AA41806B04D0092EC97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3187ABC1806B04D0092EC97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3187ABD1806B04D0092EC97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3187AC11806B04D0092EC97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3187AC21806B04D0092EC97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3187AC41806B04D0092EC97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Connection",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Core",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/GooglePlusSDK",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/RenRenSDK",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/UI",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Connection",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Core",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/GooglePlusSDK",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/RenRenSDK",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/UI",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample-Prefix.pch";
+				INFOPLIST_FILE = "ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/libWeiboSDK",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/SDKExport",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/TencentWeiboSSO",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/libWeiboSDK",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/SDKExport",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/TencentWeiboSSO",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3187AC51806B04D0092EC97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Connection",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Core",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/GooglePlusSDK",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/RenRenSDK",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/UI",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Connection",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Core",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/GooglePlusSDK",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/RenRenSDK",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/UI",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample-Prefix.pch";
+				INFOPLIST_FILE = "ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/libWeiboSDK",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/SDKExport",
+					"/Users/nogard/project/ShareSDK-mirror/ShareSDK/ShareSDK_v2.5.1/Extend/TencentWeiboSSO",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/libWeiboSDK",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/SDKExport",
+					"/Users/vim888/Documents/工作/ShareSDK_Other/Demo/ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample/ShareSDK_v2.5.1/Extend/TencentWeiboSSO",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C3187AC71806B04D0092EC97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShareSDKCustomActionSheetSample.app/ShareSDKCustomActionSheetSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShareSDKCustomActionSheetSampleTests/ShareSDKCustomActionSheetSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C3187AC81806B04D0092EC97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShareSDKCustomActionSheetSample.app/ShareSDKCustomActionSheetSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareSDKCustomActionSheetSample/ShareSDKCustomActionSheetSample-Prefix.pch";
+				INFOPLIST_FILE = "ShareSDKCustomActionSheetSampleTests/ShareSDKCustomActionSheetSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3187A921806B04D0092EC97 /* Build configuration list for PBXProject "ShareSDKCustomActionSheetSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3187AC11806B04D0092EC97 /* Debug */,
+				C3187AC21806B04D0092EC97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3187AC31806B04D0092EC97 /* Build configuration list for PBXNativeTarget "ShareSDKCustomActionSheetSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3187AC41806B04D0092EC97 /* Debug */,
+				C3187AC51806B04D0092EC97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3187AC61806B04D0092EC97 /* Build configuration list for PBXNativeTarget "ShareSDKCustomActionSheetSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3187AC71806B04D0092EC97 /* Debug */,
+				C3187AC81806B04D0092EC97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3187A8F1806B04D0092EC97 /* Project object */;
+}
